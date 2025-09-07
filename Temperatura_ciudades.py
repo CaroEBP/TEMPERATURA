@@ -30,7 +30,7 @@ temperaturas = [
 
 # Recorrer la matriz correctamente
 for ciudad_idx, ciudad in enumerate(temperaturas):
-    print(f"\n🌆 Ciudad: {ciudades[ciudad_idx]}")
+    print(f"\n Ciudad: {ciudades[ciudad_idx]}")
     for semana_idx, semana in enumerate(ciudad):
         print(f" Semana {semana_idx + 1}")
         suma = 0
